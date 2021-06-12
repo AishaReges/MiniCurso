@@ -36,7 +36,7 @@ jogar = () => {
     pontuacaoContainer.style.display = 'flex';
     button.innerHTML = 'jogar';
     input.style.opacity = 1;
-    // Faz com que todo o nome do pernagem fique minusculo
+    // Faz com que todo o nome do pernagem fique minusculo.
     nomedoPersonagem = nomedoPersonagem.toLowerCase();
     let nomeDigitado = input.value.toLowerCase();
 
